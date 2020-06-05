@@ -28,12 +28,12 @@ if (isset($_POST["login"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Game Math</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>GAME MATEMATIKA</h1>
+    <center><h1>GAME MATEMATIKA</h1></center>
     <form action="" method="post" align="center">
         <div class="form group">
 
@@ -47,7 +47,7 @@ if (isset($_POST["login"])) {
         </div>
         <button class="btn btn-warning" type="submit" name="login">Mulai</button>
     </form>
-    <div class="footer">
+    <div class="footer" align="center">
         <p>Copyright &copy;2020 Fitrandi Rahayu / K3518033</p>
     </div>
 
