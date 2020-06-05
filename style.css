@@ -7,14 +7,15 @@ h1
     margin-bottom: 30px;
     text-align: center;
     color: blue;
+    background-color: mediumblue;
+}
+body {
+    background-color: rebeccapurple;
+    background-repeat: repeat;
 }
 a,p,label
 {
     color: seashell;
-}
-body
-{
-    background: seagreen;
 }
 form
 {

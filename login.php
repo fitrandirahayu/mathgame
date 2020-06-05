@@ -27,15 +27,13 @@ if (isset($_POST["login"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Game Math</title>
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- myCSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1>MATH GAME</h1>
+    <h1>GAME MATEMATIKA</h1>
     <form action="" method="post" align="center">
         <div class="form group">
 
@@ -50,7 +48,7 @@ if (isset($_POST["login"])) {
         <button class="btn btn-warning" type="submit" name="login">Mulai</button>
     </form>
     <div class="footer">
-        <p>Copyright &copy;2020 Fitrandi Rahayu</p>
+        <p>Copyright &copy;2020 Fitrandi Rahayu / K3518033</p>
     </div>
 
 
