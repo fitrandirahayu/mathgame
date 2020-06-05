@@ -1,6 +1,12 @@
 <?php
 session_start();
 // cek kebenaran jawaban user
+
+if ($_SESSION["lives"] > 0 && $_SESSION["skor"] == 100) {
+    header("Location: gameover.php");
+    exit;
+    }
+
 if (isset($_POST["submit"])) {
     if ($_POST["jawab"] == $_SESSION["hasil"]) {
         $_SESSION["skor"] += 10;
@@ -8,7 +14,7 @@ if (isset($_POST["submit"])) {
         $_SESSION["skor"] -= 2;
         $_SESSION["lives"] -= 1;
     }
-} 
+}
 if ($_SESSION["lives"] > 0) {
     header("Location: index.php");
     exit;
