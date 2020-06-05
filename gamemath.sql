@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 05, 2020 at 02:01 PM
+-- Generation Time: Jun 05, 2020 at 02:29 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -47,8 +47,11 @@ INSERT INTO `peserta` (`nama`, `email`, `skor`) VALUES
 ('a', 'a', 0),
 ('fitrandi', 'fitrandirahayu1@gmail.com', 0),
 ('1', 'a', 0),
-('fitrandirahayu', 'fitrandirahayu2@gmail.com', 100),
-('fitrandirahayu', 'fitrandirahayu1@gmail.com', 100);
+('fitrandirahayu', 'fitrandirahayu2@gmail.com', -10),
+('fitrandirahayu', 'fitrandirahayu1@gmail.com', -10),
+('fitrandirahayu', 'fitrandirahayu1@gmail.com', -10),
+('fitrandirahayu', 'fitrandirahayu1@gmail.com', -10),
+('fitrandirahayu', 'fitrandirahayu1@gmail.com', -10);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
