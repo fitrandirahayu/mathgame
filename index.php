@@ -34,7 +34,7 @@ if (!isset($_SESSION["login"])) {
         <input type="number" name="jawab" placeholder="Jawab disini" require>
         <button class="btn btn-warning" type="submit" name="submit">Submit</button><br>
         <br>
-        <a href="logout.php" class="text-white">Bukan Anda? Klik disini untuk login akun anda.</a>
+        <a href="logout.php">Bukan Anda? Klik disini untuk login akun anda.</a>
     </form>
     <div class="footer">
         <p>Copyright &copy;2020 Fitrandi Rahayu / K3518033</p>
